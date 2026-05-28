@@ -58,7 +58,12 @@ Authorization: Bearer eyJhbGci...      ←
   "email": "sam@example.com"          ←
 }                                      ←
 ```
-
+Content-Type: 告知后端，**请求体（Body）**里的数据是什么格式（如 JSON、表单、文件）。如：application/json
+Accept: 告知后端，前端期望接收什么格式的返回数据。如：application/json
+Authorization： 身份验证凭证（通常是 JWT Token）。服务器以此判断用户是谁、有没有权限。
+User-Agent： 客户端的身份标识（什么浏览器、什么操作系统、或是手机App）
+Cookie： 浏览器自动携带的本地存储凭证，用于传统 Session 状态维持。
+Origin / Referer： 发起请求的源地址，后端用来做防盗链或 CORS（跨域） 安全检查。
 响应的结构完全对称，把**请求行**换成**状态行**（协议版本 + 状态码 + 状态描述）。
 
 在 Chrome DevTools → Network → 点一个请求 → Headers 那一栏展示的就是完整报文。
