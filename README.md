@@ -6,7 +6,7 @@
 
 ## 目录
 
-- [Phase 1：网络与传输层基础](#phase-1网络与传输层基础)
+- [Phase 1：网络与传输层基础](#phase-1网络与传输层基础) → 📄 [详细文档](./01-network-basics.md)
 - [Phase 2：后端入门与前后端打通](#phase-2后端入门与前后端打通)
 - [Phase 3：工程化与项目部署](#phase-3工程化与项目部署)
 - [Phase 4：Agent 开发基础](#phase-4agent-开发基础)
